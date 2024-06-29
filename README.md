@@ -1,5 +1,5 @@
-# ultimaker-cura-aarch64
-Ultimaker Cura for arm64 Single Board Computers
+# Ultimaker Cura for ARM64
+Ultimaker Cura for ARM64 based Single Board Computers
 
 Purpose of this repository is to share Ultimaker Cura AppImage for ARM64 devices and instructions to build both Ultimaker Cura and AppImage.
 
