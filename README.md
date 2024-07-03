@@ -56,7 +56,7 @@ or build latest from master branch with
 ```
 conan install . --build=missing --update -o cura:devtools=True -g VirtualPythonEnv
 ```
-#### Note: I tested clean build to 5.7.2 stable, and it did not create UltiMaker-Cura.spec file! Then I run with latter command and it create spec-file. After that building with 5.7.2 stable was successful.
+##### Note: I tested clean build to 5.7.2 stable, and it did not create UltiMaker-Cura.spec file that is needed in later step to build standaone UltiMaker-Cura folder! Then I run it again with latter command and it create spec-file. After that building with 5.7.2 stable was successful.
 
 Once build hangs on PyQt6 license checking, stop building with 'Ctrl+C'
 
