@@ -56,6 +56,7 @@ or build latest from master branch with
 ```
 conan install . --build=missing --update -o cura:devtools=True -g VirtualPythonEnv
 ```
+#### Note: I tested clean build to 5.7.2 stable, and it did not create UltiMaker-Cura.spec file! Then I run with latter command and it create spec-file. After that building with 5.7.2 stable was successful.
 
 Once build hangs on PyQt6 license checking, stop building with 'Ctrl+C'
 
@@ -134,6 +135,7 @@ Next we need also to add cura.desktop-file and cura-icon.png before building App
 ```
 cd dist/
 wget https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-aarch64.AppImage
+chmod +x appimagetool-aarch64.AppImage
 ```
 
 #### Copy cura icon
