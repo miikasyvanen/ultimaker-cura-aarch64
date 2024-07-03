@@ -48,11 +48,7 @@ export MAKEFLAGS="-j$(nproc)"
 ```
 
 #### Start build and initialize the Virtual Python Development Environment
-If you prefer, you can change to specific branch, e.g. 5.7
-```
-git checkout 5.7
-```
-and/or build specific version with
+If you prefer, you can build specific version with
 ```
 conan install . cura/5.7.2@ultimaker/stable --build=missing --update -g VirtualPythonEnv
 ```
