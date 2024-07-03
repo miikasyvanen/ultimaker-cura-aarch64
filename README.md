@@ -170,7 +170,7 @@ StartupNotify=false
 
 #### Create AppRun link to point UltiMaker-Cura executable
 ```
-ln -sf UltiMaker-Cura/UltiMaker-Cura UltiMaker-Cura/AppRun
+ln -sf UltiMaker-Cura UltiMaker-Cura/AppRun
 ```
 
 #### Build AppImage
